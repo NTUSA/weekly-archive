@@ -1,0 +1,213 @@
+/* line 17, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/screen.sass */
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 12px 6px rgba(1, 1, 1, 0.1);
+  font-family: "微軟正黑體";
+}
+/* line 10, ../sass/screen.sass */
+.wrapper .header {
+  min-height: 100px;
+  background-color: #252525;
+  padding: 10px 5px 10px 5px;
+}
+/* line 14, ../sass/screen.sass */
+.wrapper .header .editor {
+  text-align: right;
+}
+/* line 16, ../sass/screen.sass */
+.wrapper .header .cover {
+  text-align: center;
+}
+/* line 18, ../sass/screen.sass */
+.wrapper .header .date_eps {
+  text-align: right;
+  font-size: 12px;
+}
+/* line 21, ../sass/screen.sass */
+.wrapper .header .date_eps .date {
+  color: white;
+}
+/* line 23, ../sass/screen.sass */
+.wrapper .header .date_eps .eps {
+  color: #0099ff;
+}
+/* line 27, ../sass/screen.sass */
+.wrapper .content .box {
+  padding-bottom: 20px;
+}
+/* line 29, ../sass/screen.sass */
+.wrapper .content .box_title {
+  position: relative;
+  width: 934px;
+  height: 30px;
+  left: -17px;
+  text-align: center;
+  background-image: url("../images/ribbon900px.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 41px 0px 21px 0px;
+}
+/* line 40, ../sass/screen.sass */
+.wrapper .content .section a {
+  text-decoration: none;
+}
+/* line 42, ../sass/screen.sass */
+.wrapper .content .section:hover {
+  background-color: #e2eaff;
+  cursor: pointer;
+}
+/* line 46, ../sass/screen.sass */
+.wrapper .content .section.big img.aritcle_cover {
+  width: 900px;
+  display: block;
+}
+/* line 49, ../sass/screen.sass */
+.wrapper .content .section.big .article {
+  padding: 12px 25px;
+  color: #555555;
+  font-size: 15px;
+}
+/* line 53, ../sass/screen.sass */
+.wrapper .content .section.big .article strong {
+  font-size: 22px;
+  color: black;
+  font-weight: bolder;
+}
+/* line 63, ../sass/screen.sass */
+.wrapper .content .section.small:hover {
+  background-image: url("../images/continue.png");
+  background-repeat: no-repeat;
+  background-position: 593px 192px;
+}
+/* line 67, ../sass/screen.sass */
+.wrapper .content .section.small img.aritcle_cover {
+  float: left;
+  width: 410px;
+  height: 255px;
+}
+/* line 71, ../sass/screen.sass */
+.wrapper .content .section.small .article {
+  float: right;
+  position: relative;
+  display: +inline-block;
+  width: 440px;
+  padding: 6px 25px 12px 25px;
+}
+/* line 77, ../sass/screen.sass */
+.wrapper .content .section.small .article h1 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  color: black;
+  text-shadow: 0px 0px 1px #a7a7a7;
+}
+/* line 84, ../sass/screen.sass */
+.wrapper .content .section.small .article p {
+  font-size: 15px;
+  line-height: 22px;
+  text-indent: 44px;
+  color: #555555;
+}
+/* line 89, ../sass/screen.sass */
+.wrapper .content .section.small .article .author_from {
+  position: absolute;
+  top: 184px;
+  left: 25px;
+  height: 35px;
+}
+/* line 94, ../sass/screen.sass */
+.wrapper .content .section.small .article .author_name {
+  position: absolute;
+  top: 229px;
+  left: 25px;
+  color: #2d7eeb;
+  font-weight: bold;
+}
+/* line 101, ../sass/screen.sass */
+.wrapper .content .section.small .clear {
+  clear: both;
+}
+/* line 105, ../sass/screen.sass */
+.wrapper .footer {
+  background-color: #252525;
+  text-align: center;
+  padding: 50px 0px;
+  position: relative;
+}
+/* line 111, ../sass/screen.sass */
+.wrapper .footer a {
+  margin: 0px 10px;
+}
+/* line 113, ../sass/screen.sass */
+.wrapper .footer .designer {
+  position: absolute;
+  bottom: 6px;
+  right: 3px;
+}
